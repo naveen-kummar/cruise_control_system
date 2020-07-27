@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="cruise_control" exec="cruise_manager" output="screen" />
+  <node pkg="cruise_control" exec="vehicle_stub" output="screen" />
+</launch>

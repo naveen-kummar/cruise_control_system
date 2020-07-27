@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cruise_control:
+    image: cruise_control
+    build: .
+    ports:
+      - 3000

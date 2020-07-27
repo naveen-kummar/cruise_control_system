@@ -1,0 +1,21 @@
+rosbag2_bagfile_information:
+  version: 1
+  storage_identifier: sqlite3
+  relative_file_paths:
+    - smooth_acceleration.db3
+  duration:
+    nanoseconds: 114492624438
+  starting_time:
+    nanoseconds_since_epoch: 1595123099124853728
+  message_count: 434
+  topics_with_message_count:
+    - topic_metadata:
+        name: /acceleration
+        type: std_msgs/msg/Float32
+        serialization_format: cdr
+      message_count: 230
+    - topic_metadata:
+        name: /vehicle_speed
+        type: std_msgs/msg/Float32
+        serialization_format: cdr
+      message_count: 204
